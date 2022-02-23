@@ -11,6 +11,7 @@
 		193FDF7A27C5515400FCA9FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193FDF7927C5515400FCA9FE /* ContentView.swift */; };
 		193FDF7C27C5515700FCA9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193FDF7B27C5515700FCA9FE /* Assets.xcassets */; };
 		193FDF7F27C5515700FCA9FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193FDF7E27C5515700FCA9FE /* Preview Assets.xcassets */; };
+		193FDF8827C552B200FCA9FE /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193FDF8727C552B200FCA9FE /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		193FDF7927C5515400FCA9FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		193FDF7B27C5515700FCA9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		193FDF7E27C5515700FCA9FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		193FDF8727C552B200FCA9FE /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				193FDF7727C5515400FCA9FE /* QuotesApp.swift */,
-				193FDF7927C5515400FCA9FE /* ContentView.swift */,
+				193FDF8527C5528500FCA9FE /* Model */,
+				193FDF8627C5528F00FCA9FE /* Views */,
 				193FDF7B27C5515700FCA9FE /* Assets.xcassets */,
 				193FDF7D27C5515700FCA9FE /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				193FDF7E27C5515700FCA9FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		193FDF8527C5528500FCA9FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				193FDF8727C552B200FCA9FE /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		193FDF8627C5528F00FCA9FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				193FDF7927C5515400FCA9FE /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				193FDF7A27C5515400FCA9FE /* ContentView.swift in Sources */,
+				193FDF8827C552B200FCA9FE /* Quote.swift in Sources */,
 				193FDF7827C5515400FCA9FE /* QuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Quotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZC8R8YM24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Quotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZC8R8YM24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
